@@ -1,0 +1,296 @@
+/* side nav */
+.ms-core-listMenu-verticalBox >ul>li{
+	line-height:36px;
+	font-family: 'HelveticaNeue';
+    /*color: #000!important;*/
+    font-weight: bold;
+    font-size: 14px;
+	border-bottom: solid 1px #e2e2e2;
+}
+.ms-core-listMenu-verticalBox >ul>li>ul>li{
+	border-bottom: solid 1px #e2e2e2;
+	line-height:36px;
+	font-family: 'HelveticaNeue';
+   /* color: #000!important;*/
+    font-weight: bold;
+    font-size: 14px;
+}
+.ms-core-listMenu-verticalBox{
+	    width: 85%;
+    margin-right: 18px;
+    margin-top: 5px;
+	border-left: solid  1px lightgray;
+}
+.ms-core-listMenu-verticalBox >ul >li{
+	margin-top:4px;
+	border-bottom: solid 1px #e2e2e2;
+	
+}
+.ms-core-listMenu-verticalBox >ul >li>a{
+	background-color:lightgray;
+}
+.ms-core-listMenu-verticalBox >ul >li.selected>a{
+	/*margin-top:4px;
+	border-radius: 8px;*/
+}
+.ms-core-listMenu-verticalBox  .ms-core-listMenu-root .menu-item{
+	color:#000!important;
+}
+
+/* Top nav*/
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-root >li>a>span .menu-item-text{
+	line-height:36px;
+	font-family: 'HelveticaNeue';
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+	padding-right: 12px;
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-root >li>ul>li>span{
+	line-height:36px;
+	font-family: 'HelveticaNeue';
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+	padding-right: 12px;
+}
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-root{
+	background-color:#428bca;
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+	
+}
+.ms-core-listMenu-horizontalBox{
+	margin-top: 70px;
+	background-color:#428bca;
+	width:100%;
+	display:inline-block!important;
+
+}
+.ms-core-listMenu-horizontalBox  > ul>li>a {
+		
+	line-height:36px;
+	font-family: 'HelveticaNeue';
+    color: white!important;
+    font-weight: bold;
+    font-size: 17px;
+	 padding-right: 12px;
+}
+.ms-core-listMenu-horizontalBox  > ul>li:hover{
+	/*background-color:#004d85;*/
+}
+.ms-core-listMenu-horizontalBox> ul>li>ul>li>a{
+	
+	line-height:36px;
+	font-family: 'HelveticaNeue';
+    color: white!important;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.ms-core-listMenu-horizontalBox> ul>li>ul>li:hover{
+	background-color:#004d85;
+}
+
+.ms-core-listMenu-horizontalBox> ul>li>ul>li>ul{
+	background-color:#428bca;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:2px;
+	padding-top:4px;
+	
+}
+.ms-core-listMenu-horizontalBox> ul>li>ul>li>ul>li{
+	
+	border-bottom: dashed 1px #E8E8E8;
+}
+/* add lreft border to top nav element*/
+.ms-core-listMenu-horizontalBox> ul>li>ul>li{
+			
+	border-right:1px #fff solid;
+}
+.ms-core-listMenu-horizontalBox> ul>li>ul>li>ul>li:hover{
+	background-color:#004d85;
+}
+.ms-core-listMenu-horizontalBox> ul>li>ul>li>ul>li>a{
+	text-align:right;
+	padding-right:6px!important;
+	padding-left:10px!important;
+	line-height:36px;
+	font-family: 'HelveticaNeue';
+    color: white!important;
+    font-weight: bold;
+    font-size: 17px;
+}
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item{
+	margin-left:15px;
+	margin-right:5px;
+
+}
+/* edit links in top nav*/
+
+.ms-navedit-editSpan >a>span >span{
+	color:white!important;
+}
+
+/* title */ 
+#s4-titlerow{
+	/*background-color:#edb105;*/
+	height: 166px;
+	display:inline-block!important;
+	width:100%;
+	/*background-color: #e5e5e5;*/
+	    background: #e5e5e5;
+    background: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #e5e5e5 0%,#ffffff 100%);
+    background: linear-gradient(to bottom, #e5e5e5 0%,#ffffff 100%);
+}
+/* to handle dialog ui */
+.ms-dialog  #s4-titlerow{
+	background-color:#fff!important;
+	background:linear-gradient(to bottom, #ffffff 0%,#ffffff 100%)
+	
+}
+
+.s4-workspace{
+	width:100%;
+}
+/*----*/ 
+#s4-bodyContainer{
+	display:inline-block!important;
+}
+#titleAreaRow{
+	display:inline-block!important;
+	    position: relative;
+		width:100%;
+}
+#titleAreaBox{
+	margin:auto 0px;
+	/*display:inline-block!important;*/
+	width:100%;
+}
+#pageTitle{
+	position:absolute;
+	z-index:2;
+	top: 220px;
+    right: 10px;
+	font-size:24px;
+	font-weight:bold;
+	font-family: "Times New Roman";
+	
+}
+#siteTitle{
+	position:absolute;
+	z-index:2;
+	top: 50px;
+    right: 260px;
+	color:rgba(18, 46, 103, 1);
+	white-space:nowrap;
+	font-weight:bold;
+	font-family: 'Amiri', serif;
+	font-size:34px;
+	font-stretch: expanded;
+}
+.ms-breadcrumb-box{
+	display:inline-block!important;
+	height:auto!important;
+}
+.ms-breadcrumb-top{
+	display:inline-block!important;
+	width:100%;
+	margin-top:10px!important;
+}
+
+
+#contentRow{
+	padding-top:50px;
+}
+/* search box*/
+#DeltaPlaceHolderSearchArea{
+	    position: absolute;
+		    top: 110px;
+			left:3px;
+}
+.ms-srch-sb {
+	width:100%;
+	background:#fff;
+	padding-bottom:8px;
+}
+#SearchBox{
+	  /*  border: 1px solid #edb105;*/
+		/*height:24px;*/
+}
+.ms-srch-sb-border {
+   /* border: 1px solid #edb105!important;*/
+}
+
+/* iframe news-bar*/
+#iframeNews{
+	margin-top: 2.5px;
+	margin-left:0px!important;
+	
+}
+#iframeNews > iframe{
+	margin-left:0px!important;
+	background-color:#fff!important;
+}
+
+/* logo */
+#DeltaSiteLogo > a  .ms-siteicon-img{
+max-height:none!important;
+}
+#DeltaSiteLogo{
+	text-align:right;
+}
+/* to handle links click issue*/
+a{
+	/*position:relative;*/
+}
+/* color list headers */
+.ms-viewheadertr{
+	background-color:#428bca;
+	/*background:linear-gradient(#428bca 0%,#ffffff 100%);*/
+	
+}
+.ms-viewheadertr th{
+	color:white;
+	font-weight: bold;
+	font-family:'HelveticaNeue';
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+	font-size: 14px;
+	
+}
+.ms-viewheadertr th>div >a{
+	color:white;
+	font-weight: bold;
+	font-family:'HelveticaNeue';
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+	font-size: 14px;
+	
+}
+.ms-viewheadertr th>div >span{
+	color:white;
+	font-weight: bold;
+	font-family:'HelveticaNeue';
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+	font-size: 14px;
+	
+}
+.ms-viewheadertr th>div {
+	color:white;
+	font-weight: bold;
+	font-family:'HelveticaNeue';
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+	font-size: 14px;
+	
+}
+.ms-headerSortTitleLink{
+	color:white!important;
+	font-weight: bold;
+	font-family:'HelveticaNeue';
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+	font-size: 14px;
+	
+}
+
+
